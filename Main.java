@@ -311,6 +311,11 @@ public class Main extends javax.swing.JFrame {
     }
 
     public void jogar(JButton b, int x, int y) {
+        
+        if ( posicoes[ x ][ y ] != 0 ) {
+            return;
+        }
+                
         if (jogador == 1) {
             posicoes[x][y] = 1;
             b.setText("X");
