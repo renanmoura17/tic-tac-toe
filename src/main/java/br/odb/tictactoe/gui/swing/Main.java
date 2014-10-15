@@ -1,4 +1,4 @@
-package jogodavelha;
+package br.odb.tictactoe.gui.swing;
 
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
